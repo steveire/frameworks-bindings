@@ -1,0 +1,39 @@
+[submodule "extra-cmake-modules"]
+	path = extra-cmake-modules
+	url = git@github.com:steveire/extra-cmake-modules.git
+[submodule "kitemmodels"]
+	path = kitemmodels
+	url = git@github.com:steveire/kitemmodels.git
+[submodule "kcoreaddons"]
+	path = kcoreaddons
+	url = git@github.com:steveire/kcoreaddons.git
+[submodule "kguiaddons"]
+	path = kguiaddons
+	url = git@github.com:steveire/kguiaddons.git
+[submodule "kwidgetsaddons"]
+	path = kwidgetsaddons
+	url = git@github.com:steveire/kwidgetsaddons.git
+[submodule "kjobwidgets"]
+	path = kjobwidgets
+	url = git@github.com:steveire/kjobwidgets.git
+[submodule "kdbusaddons"]
+	path = kdbusaddons
+	url = git@github.com:steveire/kdbusaddons.git
+[submodule "kconfig"]
+	path = kconfig
+	url = git@github.com:steveire/kconfig.git
+[submodule "kcompletion"]
+	path = kcompletion
+	url = git@github.com:steveire/kcompletion.git
+[submodule "kauth"]
+	path = kauth
+	url = git@github.com:steveire/kauth.git
+[submodule "kcodecs"]
+	path = kcodecs
+	url = git@github.com:steveire/kcodecs.git
+[submodule "ki18n"]
+	path = ki18n
+	url = git@github.com:steveire/ki18n.git
+[submodule "kconfigwidgets"]
+	path = kconfigwidgets
+	url = git@github.com:steveire/kconfigwidgets.git
