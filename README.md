@@ -4,7 +4,7 @@ PyKF5 bindings prooving ground
 
 Build with
 
-    git clone git@github.com:steveire/frameworks-bindings.git
+    git clone --recursive git@github.com:steveire/frameworks-bindings.git
     cd frameworks-bindings
     mkdir build
     cd build
