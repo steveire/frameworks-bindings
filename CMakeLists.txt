@@ -13,7 +13,10 @@ macro(add_repo name DEPENDS_keyword)
     SOURCE_DIR "${CMAKE_SOURCE_DIR}/${name}"
     DOWNLOAD_COMMAND ""
     CMAKE_GENERATOR "${CMAKE_GENERATOR}"
-    CMAKE_ARGS "-DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/prefix"
+    CMAKE_ARGS
+      "-DCMAKE_INSTALL_PREFIX=${CMAKE_BINARY_DIR}/prefix"
+      "-DCMAKE_MODULE_PATH=${CMAKE_BINARY_DIR}/prefix/share/ECM"
+      "-DCMAKE_PREFIX_PATH=${CMAKE_BINARY_DIR}/prefix"
     DEPENDS "${ARGN}"
   )
   set(pythontest "${CMAKE_SOURCE_DIR}/${name}/autotests/pythontest.py")
