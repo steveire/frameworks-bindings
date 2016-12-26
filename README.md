@@ -1,6 +1,14 @@
 
-PyKF5 bindings prooving ground
-==============================
+PyKF5 bindings proving ground
+=============================
+
+Dependencies
+
+    Ubuntu
+    
+        sudo apt install qtbase5-dev        # For QtCore
+        sudo apt install python-sphinx      # For Sphinx documentation generator
+        sudo apt-install python3-sip-dev    # For sip.h
 
 Build with
 
