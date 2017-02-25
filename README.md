@@ -1,6 +1,19 @@
 
-PyKF5 bindings prooving ground
-==============================
+PyKF5 bindings proving ground
+=============================
+
+Dependencies
+
+    Ubuntu "sudo apt install"
+    
+        python-sphinx                       # For Sphinx documentation generator
+        python3-sip-dev                     # For sip.h
+        
+        qtbase5-dev                         # For QtCore
+        qttools5-dev                        # For kwidgetsaddons
+        kdoctools-dev libkf5guiaddons-dev   # For kconfigwidgets
+        qtdeclarative5-dev                  # For ki18n
+        libqt5x11extras5-dev                # For kjobwidgets
 
 Build with
 
